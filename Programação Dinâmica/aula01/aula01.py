@@ -4,14 +4,10 @@ import random
 tempo_inicial = time.time()
 '''for i in range(100):
     pass
-
 print('Tempo decorrido: ', time.time() - tempo_inicial)'''
-
 
 tempo_inicial = time.time()
 lista1 = [i for i in range(10000)]
-print('Tempo decorrido: ', time.time() - tempo_inicial)
-
 
 # 1
 def getlast(n):
