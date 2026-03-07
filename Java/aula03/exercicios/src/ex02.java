@@ -14,11 +14,11 @@ public class ex02 {
 
         while(valor2 <= valor1){
             System.out.printf("O 2º valor (%d) tem que ser maior que o 1º (%d)", valor2, valor1);
+            System.out.println("Digite um valor positivo: ");
             valor2 = ler.nextInt();
-
-            if(valor2 > valor1)
-                    break;
         }
+
+        System.out.println("Fim do programa!");
 
         ler.close();
     }
