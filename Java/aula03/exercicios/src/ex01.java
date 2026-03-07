@@ -10,9 +10,12 @@ public class ex01 {
         valor = ler.nextInt();
 
         while(valor < 0){
-            System.out.println("Não aceita nº negativo! Digite um positivo");
+            System.out.println("Não aceita nº negativo!");
+            System.out.println("Digite um valor positivo: ");
             valor = ler.nextInt();
         }
+
+        System.out.println("Nº aceito.\nPrograma encerrando...");
 
         ler.close();
     }
